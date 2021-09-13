@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+*{
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #2e8b57;
+}
+.box img.center{
+	display:block;
+	margin: auto;
+}
+nav{
+	width: 100%;
+	overflow: auto;
+	background-color: #FFFdd0;
+	line-height: 75px;
+	padding: 0px 100px;
+	position: fixed;
+}
+p{
+	padding: 0px 100px;
+	text-align:center;
+	font-weight: bold;
+	font-size: 40px;
+	font-family: 'Poppins', sans-serif;
+	max-width: 1200px;
+	margin:auto;
+	overflow:auto;
+}
+nav .name{
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+}
+
+nav .name h1 {
+	float: left;
+	color: black;
+	text-transform: uppercase;
+}
+nav ul{
+	float: right;
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+}
+nav ul li a{
+	color: black;
+	text-decoration: none;
+	font-size: 18 px;
+	text-transform: uppercase;
+	padding: 0px 32px;
+	display: block;
+	text-align: center;
+	background-color: #FFFdd0;
+}
+nav ul li a:hover{
+	color: black;
+	background-color: skyblue;
+}
+.box{
+	background-color: #f2f2f2;
+}
+.container{
+	max-width: 100px;
+	margin:auto;
+	overflow:auto;
+}
+.gallery{
+	margin:5px;
+	border: 1px solid #ccc;
+	float: right;
+	width: 390px;
+}
+.gallery img{
+	width:100%;
+	height:auto;
+}
+.desc{
+	padding:15px;
+	text-align: center;
+}
+#footer{
+	background-color: #FFFdd0;
+}
+#footer img.center{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.websites p{
+	text-align: center;
+}
+
+.contact-box{
+	border: block;
+	display:flex;
+	flex-basis: 80%;
+	padding: 40px 80px;
+	color:black;	
+	width: 100%;
+	margin: auto;
+}
+.input-row{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.input-row .input-group{
+	flex-basis:80%
+}
+input{
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	outline: none;
+	padding-bottom: 5px;
+}
+textarea{
+	width: 100%;
+	border: 1px solid #ccc;
+	background-color: white;
+}
+label{
+	margin-bottom: 6px;
+	display: block;
+	color: #1c00b5;
+}
+button{
+	background: #1c00b5;
+	width: 100px;
+	border: none;
+	outline: none;
+	color: #fff;
+	height: 35px;
+	border-radius: 30px;
+	margin-top:20px;
+}
+	
+	
+	

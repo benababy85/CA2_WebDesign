@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ThinkKind</title>
+		<link rel="stylesheet" href="style/style.css"/>	
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<nav>
+			<div class="name">
+				<h1>Think Kind</h1>
+			</div>
+			<ul> 
+				<li><a href="#about">About</a></li>
+				<li><a href="#pic">Gallery</a></li>
+				<li><a href="#help">Resources</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="box">
+			<class id="about" class="name">
+			<img class="center" src="images/bee_heart.jpg"/>
+			<p>
+			This website is created to provide people with resources and help when they need it. Please have a look at the resources and links that are provided. There is also a guide for people who have family members experiencing mental health issues in the gallery section.
+			</p>
+			<div class="container">
+				<class id="pic" class="name">
+				<div class="gallery">
+					<img src="images/health.jpg"/>
+						<div class="desc"><a href="https://www.youtube.com/watch?v=oxx564hMBUI">What is Mental health?</a></div>
+				</div>
+				<div class="gallery">
+					<img src="images/breathe.jpg"/>
+						<div class="desc">Try the 3 4 5 method: Take 3 breaths in, hold for 4 and exhale for 5 breaths</div>
+				</div>
+				<div class="gallery">
+					<img src="images/support.jpg"/>
+						<div class="desc"><a href="https://www.mentalhealth.gov/talk/friends-family-members">support site for family members</a></div>
+				</div>
+				<div class="gallery">
+					<img src="images/links.jpg"/>
+						<div class="desc"><a href="https://tetw.org/Mental_Health_">Links to articles for extra reading</a></div>
+				</div>
+				<div class="gallery">
+					<img src="images/video.jpg"/>
+						<div class="desc"><a href="https://www.youtube.com/watch?v=MiOVX7qKQ24">Depression, suicide and the power of hope - Gill Hayes</a></div>
+						<div class="desc"><a href="https://www.youtube.com/watch?v=IDPDEKtd2yM&t=140s">I'm fine - Jake Taylor</a></div>
+						<div class="desc"><a href="https://www.youtube.com/watch?v=MB5IX-np5fE&t=22s">Why you could be depressed - Johann hari</a></div>
+				</div>
+				<div class="gallery">
+				<img src="images/tips.jpg"/>
+					<div class="desc"><a href="https://www.mhanational.org/31-tips-boost-your-mental-health">Tips on how to boost your mental health</a></div>
+				</div>
+			</div>
+			<div class="websites">
+				<class id="help" class="name">
+				<p>Below is a list of services that provide mental health support:</p>
+				<ul> 
+					<li><a href="https://www.mentalhealthireland.ie/">Mental Health Ireland</a></li>
+					<li><a href="https://www2.hse.ie/mental-health/">HSE</a></li>
+					<li><a href="https://www.pieta.ie/">Pieta House</a></li>
+					<li><a href="https://shine.ie/">Shine</a></li>
+				</ul>
+			</div>
+			<p>Please feel free to contact us below:</p>
+			<div class="contact-box">
+				<class id="contact" class="name">
+				<form>
+					<div class="input-row">
+						<div class="input-group">
+							<label>Name:</label>
+							<input type="text" placeholder="Please enter your name">
+						</div>
+					</div>
+					<div class="input-row">
+						<div class="input-group">
+							<label>Phone Number:</label>
+							<input type="text" placeholder="Please enter your phone number">
+						</div>
+					</div>
+					<div class="input-row">
+						<div class="input-group">
+							<label>Email:</label>
+							<input type="text" placeholder="Please enter your email">
+						</div>
+					</div>
+			</div>		
+					<label>Message</label>
+					<textarea rows="5" placeholder="Write your message"></textarea>
+					<button onclick="submit()";>SEND</button>
+					</br>
+				</form>
+				<script>
+					function gentext(){
+						var word = ["Journal", "Gratitude", "meditate", "chat", "take a walk", "dance", "sing"];
+						var para=document.querySelector('t');
+						para.innerHTML=word[Math.floor(Math.random()*word.length)];
+				}
+				</script>
+				</br>
+				<button onclick="gentext();">TIP</button><t>
+		</div>
+	<div id="footer">
+		<img class="center" src="images/logo.png"/>
+	</div>
+	</body>
+</html>
